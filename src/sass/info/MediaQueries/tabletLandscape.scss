@@ -1,0 +1,11 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+    @import '../desktop';
+  .result-item {
+    text-align: left;
+  }
+  .training-item  {
+    text-align: left;
+  }
+}

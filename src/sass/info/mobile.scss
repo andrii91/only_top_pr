@@ -1,0 +1,113 @@
+& {
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  img {
+    max-width: 100%;
+  }
+  main,
+  header {
+    overflow: hidden;
+
+  }
+
+  nav,
+  .nav-phone {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  nav .nav-logo img {
+    width: 75px;
+  }
+  .head {
+    padding-top: 210px;
+    text-align: center;
+    background-position: left;
+  }
+  .head-title {
+    font-size: 36px;
+    margin: 20px 0 10px;
+  }
+  .head-item p {
+    br {
+      display: none;
+    }
+  }
+  .order-btn {
+    padding: 22px 75px 23px 18px;
+    font-size: 17px;
+  }
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px !important;
+  }
+  .pr-item:nth-child(1),
+  .pr-item:nth-child(3) {
+    margin-top: 0;
+    img {
+      display: none;
+    }
+  }
+  section {
+    padding: 50px 0 !important;
+  }
+  .pr-item {
+    text-align: center;
+    br {
+      display: none;
+    }
+  }
+  .pr-item:nth-child(2) img {
+    margin: 0px 0 20px;
+  }
+  .result {
+    padding: 25px 0;
+    background-size: cover;
+    text-align: center;
+  }
+  .programs-item {
+    br {
+      display: none;
+    }
+  }
+  .programs-item .bottom {
+    padding: 20px 15px;
+  }
+  .training-item {
+    text-align: center;
+    img {
+      margin-top: 20px;
+    }
+    br {
+      display: none;
+    }
+  }
+  .speaker {
+    padding: 50px 15px;
+    margin: 0;
+  
+  }
+  .speaker-img {
+    margin-bottom: 30px;
+  }
+  .info {
+    text-align: center;
+  }
+  .packages-item {
+    padding: 30px 15px 50px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .packages-list li {
+    padding-left: 35px;
+  }
+  .guarantee {
+    text-align: center;
+  }
+  .large_modal, .modal {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

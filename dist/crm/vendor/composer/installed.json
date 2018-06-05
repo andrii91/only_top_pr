@@ -1,0 +1,41 @@
+[
+    {
+        "name": "nabarabane/amocrm",
+        "version": "v1.1.4",
+        "version_normalized": "1.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nabarabane/amocrm.git",
+            "reference": "1409c51a7a9ee6f40e618b2434ff271101f3db3b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nabarabane/amocrm/zipball/1409c51a7a9ee6f40e618b2434ff271101f3db3b",
+            "reference": "1409c51a7a9ee6f40e618b2434ff271101f3db3b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2016-03-17T08:37:20+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "AmoCRM\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Denis Gerasimov",
+                "email": "mailbox.gerasimov@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Простая обертка для работы с API AmoCRM"
+    }
+]
